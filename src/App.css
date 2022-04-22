@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+}
+
+body,
+html {
+  height: 100%;
+  background-color: black;
+  background-size: 100% 100%;
+
+}
+
+.wrapper {
+
+
+  text-align: center;
+  border-radius: 20px 20px 20px 20px;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-bottom: 2%;
+  width: 47%;
+  float: left;
+  height: 60%;
+  background-color: #c5d5cb;
+  border: 0.5px solid #ADD8E6;
+  font-family: 'Allerta Stencil';
+  font-size: 18px;
+  color: #AAF0D1;
+
+
+}
+
+
+
+.new_style {
+  width: 30%;
+  text-align: center;
+  border-radius: 10px 10px 10px 10px;
+
+  margin-left: 12%;
+
+  margin-bottom: 2%;
+  float: left;
+  background-color: #4682B4;
+  border: 1px solid #ADD8E6;
+  font-family: 'Allerta Stencil';
+  font-size: 18px;
+  color: black;
+}
+
+.all_wrapper {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100%;
+  height: 100%;
+
+}
+
+.profile_style {
+
+  height: 30%;
+  width: 60%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: #ADD8E6;
+  margin-left: 8%;
+  float: left;
+  word-wrap: break-word;
+
+
+
+
+}
+
+.skill_wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.new_wrapper {
+  width: 40%;
+  height: 40%;
+}
+
+.my_wrapper {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 10%;
+  border: 3px solid #25373d;
+  height: 30%;
+  width: 20%;
+  color: black;
+  float: left;
+  border-radius: 10px 10px 10px 10px;
+  word-wrap: break-word;
+}
+
+@media(max-width:720px) {
+  .profile_style {
+
+    height: 30%;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: #ADD8E6;
+    margin-left: 8%;
+    float: left;
+
+
+
+
+  }
+
+  .my_wrapper {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    border: 0.5px solid #000000;
+    height: 30%;
+    width: 100%;
+    color: #ADD8E6;
+    float: left;
+    border-radius: 10px 10px 10px 10px;
+
+
+
+
+  }
+
+  .new_style {
+    width: 80%;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+
+    margin-left: 12%;
+
+    margin-bottom: 2%;
+    float: left;
+    background-color: #4682B4;
+    border: 0.5px solid #ADD8E6;
+    font-family: 'Allerta Stencil';
+    font-size: 18px;
+    color: black;
+  }
+
+  .wrapper {
+
+
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 4%;
+    margin-left: 4%;
+    margin-bottom: 2%;
+    width: 90%;
+    float: left;
+    height: 60%;
+    background-color: #c5d5cb;
+    border: 0.5px solid #ADD8E6;
+    font-family: 'Allerta Stencil';
+    font-size: 18px;
+    color: #AAF0D1;
+
+
+  }
+}
