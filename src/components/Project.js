@@ -35,7 +35,7 @@ function Project() {
     {
       name: "Profile app",
       image: profileHomePage,
-      url: "This is the website",
+      url: "",
       desc: "An app displaying the summary of my profile",
     },
   ];
