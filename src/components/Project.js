@@ -9,7 +9,8 @@ import { Link } from "react-router-dom";
 import food_app from "../assets/Food_app.png";
 import stack_overflow_clone from "../assets/stack_overflow_clone.png";
 import student_mentor from "../assets/Student_mentor.png";
-import video_stream from "../assets/Video_Streaming_App.png";
+import profileHomePage from "../assets/profileHomePage.png";
+
 
 function Project() {
   const data = [
@@ -30,6 +31,12 @@ function Project() {
       image: food_app,
       url: "https://elegant-neumann-79ac10.netlify.app/",
       desc: "Food delivery app built using react and node js. A public food api used for fetching food list and user can add the food to cart and order it",
+    },
+    {
+      name: "Profile app",
+      image: profileHomePage,
+      url: "This is the website",
+      desc: "An app displaying the summary of my profile",
     },
   ];
   return (
